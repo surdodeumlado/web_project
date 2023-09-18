@@ -19,4 +19,36 @@ body {
 .heading-1 {
   font-size: 40px;
   text-transform: uppercase;
+  color: #000000;
+}
+
+.heading-1 span {
+  color: crimson;
+}
+
+.sub-heading {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 3px solid rgb(75, 75, 75);
+  padding-bottom: 15px;
+}
+
+.sub-heading p {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+.sub-heading span {
+  color: crimson;
+  font-weight: 200;
+  border-right: 1.5px solid rgb(75, 75, 75);
+  padding-right: 10px;
+}
+
+.sub-heading .importent {
+  color: rgb(216, 216, 216);
+  font-weight: 300;
 }

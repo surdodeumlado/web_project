@@ -92,6 +92,21 @@ body {
   height: 80px;
 }
 
+/* ARTICLE */
+article>p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  columns: 3 25ch;
+  column-gap: 40px;
+  hyphens: auto;
+}
+
+article p:first-child::first-line {
+  font-weight: 700;
+  font-size: 25px;
+  color: crimson;
+}
+
 @media (max-width: 950px) {
   .home {
     grid-template-columns: 1fr;

@@ -132,6 +132,14 @@ blockquote::before {
   margin-bottom: 40px;
 }
 
+.card {
+  font-size: 20px;
+  border: 1px solid crimson;
+  padding: 10px 20px;
+  break-inside: avoid;
+  border-radius: 5px;
+}
+
 @media (max-width: 950px) {
   .home {
     grid-template-columns: 1fr;
@@ -145,5 +153,9 @@ blockquote::before {
 
   .lista {
     grid-template-columns: 1fr 5fr;
+  }
+
+  .card {
+    margin-bottom: 40px;
   }
 }

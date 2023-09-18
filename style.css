@@ -107,6 +107,31 @@ article p:first-child::first-line {
   color: crimson;
 }
 
+/* blockquote */
+
+blockquote {
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+blockquote::before {
+  content: open-quote;
+  position: absolute;
+  top: -60px;
+  left: -15px;
+  opacity: .3;
+  color: crimson;
+  font-size: 150px;
+}
+
+.cards {
+  columns: 25ch 3;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 950px) {
   .home {
     grid-template-columns: 1fr;

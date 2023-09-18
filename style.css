@@ -1,4 +1,8 @@
 h1 {
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(37, 54, 68);
+  margin: auto;
+  padding: 50px;
 }

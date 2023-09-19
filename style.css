@@ -19,17 +19,22 @@ body {
 .heading-1 {
   font-size: 40px;
   text-transform: uppercase;
-  color: #000000;
-}
-
-.heading-1 span {
-  color: crimson;
+  color: #ffffff;
+  text-align: center;
+  background-color: crimson;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .heading-2 {
   font-size: 30px;
   line-height: 1.1;
   margin-bottom: 20px;
+}
+
+.heading-2 span {
+  color: crimson;
 }
 
 .heading-3 {
@@ -39,6 +44,7 @@ body {
   padding-bottom: 05px;
   margin-bottom: 15px;
   border-bottom: 2px solid black;
+  text-align: center;
 }
 
 .sub-heading {
